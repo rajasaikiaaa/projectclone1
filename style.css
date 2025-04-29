@@ -53,3 +53,32 @@
     align-items: center;
 
 }
+
+
+.nav-search {
+    display: flex;
+    width: 430px;
+    height: 58px;
+    align-items: center;
+    border-radius: 25px;
+
+}
+
+.search-input {
+width: 420px;
+height: 25px;
+}
+
+.search-select {
+    height: 31px;
+}
+
+
+.search-icon {
+    background-color: rgb(207, 145, 50);
+    width: 40px;
+    height: 31px;
+    align-items: center;
+}
+/** 3rd box**/
+
