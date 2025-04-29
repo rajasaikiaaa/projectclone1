@@ -9,6 +9,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -57,28 +58,63 @@
 
 .nav-search {
     display: flex;
-    width: 430px;
-    height: 58px;
-    align-items: center;
-    border-radius: 25px;
+    justify-content: space-evenly;
+    width: 530px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(228, 171, 105);
 
+
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+.search-select {
+    width: 50px;
+    height: 40px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
 }
 
 .search-input {
-width: 420px;
-height: 25px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
 }
-
-.search-select {
-    height: 31px;
-}
-
 
 .search-icon {
-    background-color: rgb(207, 145, 50);
-    width: 40px;
-    height: 31px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(238, 166, 59);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-/** 3rd box**/
+/** 4th box**/
+span {
+    font-size: .7rem;
+}
 
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+
+/** box 5 **/
+
+.nav-cart i {
+    font-size: 25px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
