@@ -118,3 +118,61 @@ span {
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+
+
+/** nav panel **/
+.nav-panel {
+    height: 39px;
+    background-color: #232F3E;
+    color: #ffffff;
+    padding: 0 0 0 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav-panel-first {
+    width: 58px;
+    height: 35px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-panel-first i{
+    font-size: 20px;
+    margin-right: 5px;
+    height: 14px;
+   
+    
+}
+
+.nav-panel-menu {
+    font-weight: 700;
+    height: 12px;
+}
+
+/** 2nd box of panel **/
+.nav-panel-deal {
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-deal {
+    width: 98px;
+    height: 18px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6px 3px;
+    margin: 5px 0px 6px;
+    font-weight: 500;
+
+}
